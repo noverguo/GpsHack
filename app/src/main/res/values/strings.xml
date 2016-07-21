@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GpsHack</string>
+    <string name="gps_hack_desc">Gps定位修改</string>
+    <string name="action_settings">Settings</string>
+</resources>

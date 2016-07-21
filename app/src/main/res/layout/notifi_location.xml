@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_gravity="center">
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@mipmap/ic_launcher"/>
+    <Button
+        android:id="@+id/btn_action_left"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="@null"
+        android:background="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+    <Button
+        android:id="@+id/btn_action_up"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="@null"
+        android:background="@drawable/ic_keyboard_arrow_up_black_24dp"/>
+    <Button
+        android:id="@+id/btn_action_down"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="@null"
+        android:background="@drawable/ic_keyboard_arrow_down_black_24dp"/>
+    <Button
+        android:id="@+id/btn_action_right"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:text="@null"
+        android:background="@drawable/ic_keyboard_arrow_right_black_24dp"/>
+</LinearLayout>
